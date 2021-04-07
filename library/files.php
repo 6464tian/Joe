@@ -65,7 +65,7 @@ class config {
     'allow_symlinks' => true, // 允许“文件”应用显示和跟随列表和菜单中的符号链接
 
     // various
-    'history' => true, // 启用历史记录后，浏览器将在导航目录时更改URL?path/to/folder。这还允许您在共享URL时直接直接深链接到文件和目录。如果禁用，则导航时URL永远不会改变。
+    'history' => true, // 1111111启用历史记录后，浏览器将在导航目录时更改URL?path/to/folder。这还允许您在共享URL时直接直接深链接到文件和目录。如果禁用，则导航时URL永远不会改变。
     'breadcrumbs' => true, // 启用顶部栏中的“ breadcrumbs”界面元素，使用户可以轻松导航至父目录。如果root不包含任何文件夹，则将始终禁用
     'transitions' => true, // 启用前端的各种转换。
     'click' => 'popup', // 单击主视图区域中的项目时， 选择触发弹出窗口， 模式， 下载， 窗口 或 菜单(popup, modal, download, window or menu)的方法。默认值“popup”将适用于所有图像文件，但对于非图像文件将回退为“modal”
